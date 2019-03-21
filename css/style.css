@@ -35,3 +35,17 @@ ul {
   padding-top: 55px;
   padding-left: 200px;
 }
+
+footer {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.social ul {
+  display: flex;
+ }
