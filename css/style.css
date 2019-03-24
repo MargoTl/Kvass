@@ -1,4 +1,5 @@
 a {
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -10,7 +11,14 @@ body {
 }
 
 h1 {
-  color: #000000; /* не работает */
+  color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
 }
 
 .new-catalog {
@@ -23,7 +31,6 @@ ul {
 
 .header {
   min-height: 450px;
-  width: 1200px;
 
   background-color: #D69021;
   background-image: url(../img/header-rye.jpg);
