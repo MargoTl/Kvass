@@ -124,13 +124,17 @@
         <h2>Заказать</h2>
         <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
         <form action="#" method="post">
-          <label>Представьтесь<input type="text" name="name" placeholder="Как мы можем к вам обращаться?"></label>
-          <label>Номер телефона:<input type="text" name="phone" placeholder="+7 (xxx) xxx-xx-xx"></label>
-          <label>Доп. номер:<input type="text" name="phone-2" placeholder="+7 (xxx) xxx-xx-xx"></label>
-          <label>email:<input type="text" name="email" placeholder="Ваша электронная почта"></label>
-          <label>Объём заказа:<input type="text" name="size" placeholder="От 5 до 10 баррелей в неделю"></label>
-          <label>Доп. комментарий:<input type="text" name="comment" placeholder="Сообщите нам всё, что считаете нужным"></label>
-          <label><input type="checkbox" name="">Я согласен получать квасную рассылку</label>
+          <p><label>Представьтесь<input type="text" name="name" placeholder="Как мы можем к вам обращаться?"></label></p>
+          <p><label>Номер телефона:<input type="text" name="phone" placeholder="+7 (xxx) xxx-xx-xx"></label>
+          <label>Доп. номер:<input type="text" name="phone-2" placeholder="+7 (xxx) xxx-xx-xx"></label></p>
+          <p><label>email:<input type="text" name="email" placeholder="Ваша электронная почта"></label></p>
+          <p><label>Объём заказа:
+            <select name="size">
+              <option>От 5 до 10 баррелей в неделю</option>
+              <option>ещё варианты...</option>
+            </select></label></p>
+          <p><label>Доп. комментарий:<textarea name="comment" rows="5" placeholder="Сообщите нам всё, что считаете нужным"></textarea></label></p>
+          <p><label><input type="checkbox" name="">Я согласен получать квасную рассылку</label></p>
           <input type="submit" value="отправить заказ">
         </form>
       </section>
