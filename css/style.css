@@ -8,6 +8,8 @@ body {
   padding: 0;
 
   font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 h1 {
@@ -46,6 +48,38 @@ ul {
   background-color: #FFCB78;
 }
 
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+
+  width: 600px;
+}
+
+.nav li {
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin: 0 20px;
+}
+
+.button {
+  display: inline-block;
+
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  text-transform: uppercase;
+/*  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px; */
+
+  padding: 0;
+  margin: 0;
+}
 
 
 footer {
