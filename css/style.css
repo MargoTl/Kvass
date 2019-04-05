@@ -88,10 +88,12 @@ ul {
 .button {
   display: inline-block;
 
-  font: inherit;
   text-align: center;
   vertical-align: middle;
+
+  font: inherit;
   font-weight: bold;
+
   text-transform: uppercase;
 
   padding: 10px 18px;
@@ -113,6 +115,7 @@ ul {
 
 .description {
   min-width: 1200px;
+  margin-bottom: 50px;
 
   background-color: #FFCB78;
 }
@@ -122,11 +125,24 @@ ul {
 }
 
 .description li {
-  width: 400px;
+  width: 213px;
   padding: 50px;
 }
 
+/*    History    */
 
+.history {
+  padding: 0 100px;
+}
+
+.history h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.history h3 {
+  text-transform: uppercase;
+}
 
 /*    Footer    */
 
