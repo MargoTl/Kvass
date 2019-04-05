@@ -81,6 +81,15 @@ ul {
   margin: 0;
 }
 
+.bnt-white {
+  background-color: white;
+  color: brown;
+}
+
+.bnt-brown {
+  background-color: brown;
+  color: white;
+}
 
 footer {
   color: #ffffff;
