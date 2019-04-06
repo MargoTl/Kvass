@@ -16,6 +16,10 @@ h1 {
   color: #ffffff;
 }
 
+h2, h3 {
+  text-transform: uppercase;
+}
+
 .container {
   width: 1200px;
   padding-right: 20px;
@@ -143,6 +147,53 @@ ul {
 .history h3 {
   text-transform: uppercase;
 }
+
+/*    Press    */
+
+.press {
+  position: relative;
+
+  padding: 40px 100px;
+
+  background-color: #EDE5D8;
+}
+
+.press p {
+  width: 690px;
+}
+
+.btn-read {
+  padding: 5px 10px;
+
+  color: #A79E95;
+
+  border-color: #A79E95;
+  background-color: #EDE5D8;
+}
+
+.press::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 115px;
+
+  width: 43px;
+  height: 33px;
+  background-image: url(../img/quotes.jpg);
+}
+
+.paper {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+
+  font-weight: bold;
+}
+
+/*    Assortment    */
+
+
+
 
 /*    Footer    */
 
