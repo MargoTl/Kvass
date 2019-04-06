@@ -205,8 +205,16 @@ th {
   border-bottom: 1px solid lightgray;
 }
 
+.table-price {
+  width: 25%;
+
+  text-align: right;
+}
+
 td {
   padding: 15px;
+
+  text-align: center;
 
   border-bottom: 1px solid lightgray;
 }
@@ -219,6 +227,40 @@ td {
 
 td.table-name {
   font-weight: bold;
+}
+
+/* "Новинка" */
+
+.assortment span {
+  margin-left: 20px;
+  padding: 3px 6px;
+
+  color: white;
+  font-size: 11px;
+
+  background-color: black;
+  border-radius: 5px;
+}
+
+/*    Order    */
+
+.order {
+  padding: 40px 100px;
+}
+
+.order > p {
+  width: 640px;
+}
+
+.order input {
+  padding: 10px;
+
+  background-color: #E5B56B;
+  border: none;
+}
+
+.order label {
+  width: 25%;
 }
 
 
