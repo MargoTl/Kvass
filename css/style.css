@@ -87,6 +87,14 @@ ul {
   padding-left: 25px;
 }
 
+.catalog-item-top {
+  display: flex;
+}
+
+.catalog-table {
+
+}
+
 /*    Button    */
 
 .button {
