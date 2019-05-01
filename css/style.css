@@ -38,14 +38,15 @@ ul {
 .header {
   min-height: 450px;
 
+  box-sizing: border-box;
+
   background-color: #D69021;
   background-image: url(../img/header-rye.jpg);
   background-repeat: no-repeat;
 }
 
 .header-logo {
-  padding-top: 55px;
-  padding-left: 200px;
+  padding: 55px 50px 0 200px;
 }
 
 .order {
@@ -58,15 +59,39 @@ ul {
 
 .nav-list {
   display: flex;
+  position: relative;
+ 
+  margin: 50px 0 0 0;
+  padding: 15px 0 0 0;
+}
 
-  width: 600px;
+.nav-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 500px;
+  height: 1px;
+  background-color: rgba(250,250,250,0.3);
+}
+
+.nav-list::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+
+  width: 500px;
+  height: 1px;
+  background-color: rgba(250,250,250,0.3);
 }
 
 .nav li {
   font-weight: bold;
   text-transform: uppercase;
 
-  margin: 0 20px;
+  margin: 0 20px 0 0;
 }
 
 .caption-1 {
