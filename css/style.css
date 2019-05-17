@@ -136,8 +136,47 @@ ul {
 }
 
 .description li {
+  position: relative;
+
   width: 213px;
   padding: 50px;
+}
+
+.description h2 {
+  margin-top: 100px;
+}
+
+.description-item-1::before {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 40px;
+
+  width: 50px;
+  height: 70px;
+  background-image: url(../img/desc-pic-01.jpg);
+}
+
+.description-item-2::before {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 40px;
+
+  width: 50px;
+  height: 70px;
+  background-image: url(../img/desc-pic-02.jpg);
+}
+
+.description-item-3::before {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 40px;
+
+  width: 50px;
+  height: 70px;
+  background-image: url(../img/desc-pic-03.jpg);
 }
 
 .catalog-item {
@@ -208,11 +247,44 @@ ul {
 /*    History    */
 
 .history {
-  padding: 0 100px;
+  padding: 0 100px 50px 100px;
 }
 
 .history h2 {
   font-size: 30px;
+}
+
+.history a {
+  color: #684C27;
+  text-decoration: underline;
+}
+
+.history-ref {
+  font-style: italic;
+}
+
+.history-img-1 {
+  border-radius: 5px;
+  background-color: #1B0C05;
+  background-image: url("../img/wiki-1.png");
+  background-repeat: no-repeat;
+
+  width: 230px;
+  height: 100px;
+
+  box-sizing: border-box;
+}
+
+.history-img-2 {
+  border-radius: 5px;
+  background-color: #614629;
+  background-image: url("../img/wiki-2.png");
+  background-repeat: no-repeat;
+
+  width: 230px;
+  height: 100px;
+
+  box-sizing: border-box;
 }
 
 /*    Press    */
@@ -273,8 +345,6 @@ th {
   color: #B2B2B2;
   font-weight: normal;
   font-size: 14px;
-
-  border-bottom: 1px solid lightgray;
 }
 
 .table-price {
@@ -287,8 +357,6 @@ td {
   padding: 15px;
 
   text-align: left;
-
-  border-bottom: 1px solid lightgray;
 }
 
 .table-name {
